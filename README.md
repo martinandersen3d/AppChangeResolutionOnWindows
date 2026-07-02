@@ -9,7 +9,7 @@ Tray utility for Windows 10/11 that lets you change monitor resolution quickly.
 - Shows available resolutions per monitor
 - Marks current resolution with a checkmark
 - Supports multiple monitors
-- Teams meeting detection trigger for quick popup
+- Teams meeting detection trigger for quick popup (When app language is set to English))
 
 ## Screenshot
 
