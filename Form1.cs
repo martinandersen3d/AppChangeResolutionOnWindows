@@ -16,7 +16,8 @@ public partial class Form1 : Form
         _trayService = new TrayWinFormsService(
             this,
             new ScreenResolutionReaderService(),
-            new ScreenResolutionSetterService());
+            new ScreenResolutionSetterService(),
+            new TeamsMeetingWindowDetectorService());
     }
 
     protected override void OnShown(EventArgs e)
