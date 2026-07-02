@@ -17,4 +17,4 @@ Tray utility for Windows 10/11 that lets you change monitor resolution quickly.
 
 ## Download
 
-- ![Download - Download/AppChangeResolutionOnWindows.exe](Download/AppChangeResolutionOnWindows.exe)
+- [Download/AppChangeResolutionOnWindows.exe](Download/AppChangeResolutionOnWindows.exe)
