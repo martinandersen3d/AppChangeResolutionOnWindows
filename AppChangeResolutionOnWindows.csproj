@@ -10,12 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="app.ico">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Screenshots\" />
   </ItemGroup>
 

@@ -206,10 +206,10 @@ public sealed class TrayWinFormsService : ITrayWinFormsService
 
     private static (Icon Icon, bool OwnsIcon) LoadTrayIcon()
     {
-        string iconPath = Path.Combine(AppContext.BaseDirectory, "app.ico");
-        if (File.Exists(iconPath))
+        Icon? exeIcon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
+        if (exeIcon is not null)
         {
-            return (new Icon(iconPath), true);
+            return (exeIcon, true);
         }
 
         return (SystemIcons.Application, false);
